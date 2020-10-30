@@ -7,8 +7,8 @@ Based on the following procedure,
 - Select available account
 - Select balacne/deposit/withdraw
 
-** possible future bank api integration. 
-** possible future cash bin integration. 
+** possible future bank api integration<br />
+** possible future cash bin integration<br />
 ** code must be tested. 
 
 ## Introduction
