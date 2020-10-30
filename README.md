@@ -26,8 +26,13 @@ POST /card/withdraw : request withdrawal from the account
 
 ** normally, card identification would be done with a token rather than pure id number, but in this project authorization process is not implemented - it would focus on the core components(validation & account manipulation)
 
+![](bear_recording.gif)
+
+
 ## service.py(service)
 Business logic functions in terms of withdrawing from the card and the cash bin. Logics are separated between the two, even though they share identical codes, for future integration.
 
 ## test
 All functions in views.py, service.py, models.py are tested(except bin-related functions in service because they're identical to the card apis). Tests can be ran with __**pytest**__ in root directory.
+
+![image](bear_pytest.png)
