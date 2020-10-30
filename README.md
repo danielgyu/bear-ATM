@@ -19,10 +19,10 @@ A simplified version of account data is stored in the database. The 'Card' class
 The 'Bin' class contains balance information of a specific cash bin. Request withdrawal from the customer can only be done if he or she has enough balance in the card and the cash bin.
 
 ## view.py(presentation)
-POST /card/validate : request access to account detail with 'card(number)' and 'pin'
-GET /card/balance   : request balance detail of the account
-POST /card/deposit  : request deposit to the account
-POST /card/withdraw : request withdrawal from the account
+POST /card/validate : request access to account detail with 'card(number)' and 'pin'<br />
+GET /card/balance   : request balance detail of the account<br />
+POST /card/deposit  : request deposit to the account<br />
+POST /card/withdraw : request withdrawal from the account<br />
 
 ** normally, card identification would be done with a token rather than pure id number, but in this project authorization process is not implemented - it would focus on the core components(validation & account manipulation)
 
