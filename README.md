@@ -7,9 +7,9 @@ Based on the following procedure,
 - Select available account
 - Select balacne/deposit/withdraw
 
-** possible future bank api integration
-** possible future cash bin integration
-** code must be tested
+** possible future bank api integration. 
+** possible future cash bin integration. 
+** code must be tested. 
 
 ## Introduction
 For the possibility of third party integration, I decided to create a simple Django backend that can communicate through REST API. First, this backend would take request from a customer using an ATM. The enetered PIN would first be validated, and after the PIN has been confirmed, the user can proceed to the Balance/deposit/withdrawal phase. Layers have been separated for future expandability.
