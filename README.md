@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/danielgyu/bear-ATM.svg?branch=main)](https://travis-ci.org/danielgyu/bear-ATM)
 # Simple ATM controller implementation
 
 ## Assessment Requirements
